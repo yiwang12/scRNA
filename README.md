@@ -7,5 +7,5 @@ params_Klein.RData
 sim_scRNA.r
 
 # Functions used in scRNA simulation:
-simulationHelpFunctions_v7_diffInZero.R
+simulationHelpFunctions_v7_diffInZero.R;
 function_NBsimSingleCell.R
