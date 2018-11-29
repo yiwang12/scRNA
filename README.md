@@ -12,8 +12,8 @@ function_NBsimSingleCell.R
 
 ## Mean-variance relatinship reconstruction
 droprate_est_zinb.R; 
-functions_mv_cal_v3.R;
-functions_mv_plot_v6.R
+mean_variance_reconstruction.R;
+mean_variance_plot.R
 
 ## Evaluation using area under PR curve 
 area_PR _curve.r
