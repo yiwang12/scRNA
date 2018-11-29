@@ -15,5 +15,3 @@ droprate_est_zinb.R;
 mean_variance_reconstruction.R;
 mean_variance_plot.R
 
-#### Evaluation using area under PR curve 
-PR_curve_area.r
