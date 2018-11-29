@@ -1,6 +1,6 @@
 # scRNA-seq Differential Expression Analysis
 
-## Parameters of Klein scRNA data
+### Parameters of Klein scRNA data
 params_Klein.RData
 
 ## Code for scRNA simulation:
