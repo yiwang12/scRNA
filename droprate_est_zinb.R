@@ -1,4 +1,4 @@
-####### estimate dropour rate using ZINB-WaVE
+## estimate dropour rate using ZINB-WaVE
 library(zinbwave)
 source("zinbft.R")
 
