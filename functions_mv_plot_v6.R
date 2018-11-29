@@ -82,56 +82,10 @@ cal_plot<-function(sim_counts,span_in){
 
 
 ### apply in 10 datasets
-setwd("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/allen")
-load("/Users/yiwang/Dropbox/yiwang/project_Kasper/2_16/sim_data/allen_sim_counts4.RData")
-cal_plot(allen_sim_counts,0.2)
-
-dir.create("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/maits")
-setwd("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/maits")
-load("/Users/yiwang/Dropbox/yiwang/project_Kasper/2_16/sim_data/maits_sim_counts4.RData")
-cal_plot(maits_sim_counts,0.2)
-
-dir.create("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/islam")
-setwd("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/islam")
-load("/Users/yiwang/Dropbox/yiwang/project_Kasper/2_16/sim_data/islam_sim_counts4.RData")
-cal_plot(islam_sim_counts,0.2)
-
-dir.create("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/Trapnell")
-setwd("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/Trapnell")
-load("/Users/yiwang/Dropbox/yiwang/project_Kasper/2_16/sim_data/Trapnell_sim_counts4.RData")
-cal_plot(Trapnell_sim_counts,0.2)
-
 dir.create("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/Klein")
 setwd("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/Klein")
 load("/Users/yiwang/Dropbox/yiwang/project_Kasper/2_16/sim_data/Klein_sim_counts4.RData")
 cal_plot(Klein_sim_counts,0.2)
-
-dir.create("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/Tung")
-setwd("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/Tung")
-load("/Users/yiwang/Dropbox/yiwang/project_Kasper/2_16/sim_data/Tung_sim_counts4.RData")
-cal_plot(Tung_sim_counts,0.2)
-
-dir.create("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/Zeisel")
-setwd("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/Zeisel")
-load("/Users/yiwang/Dropbox/yiwang/project_Kasper/2_16/sim_data/Zeisel_sim_counts4.RData")
-cal_plot(Zeisel_sim_counts,0.2)
-
-dir.create("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/Eagel")
-setwd("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/Eagel")
-load("/Users/yiwang/Dropbox/yiwang/project_Kasper/2_16/sim_data/Eagel_sim_counts4.RData")
-cal_plot(Eagel_sim_counts,0.2)
-
-dir.create("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/patel")
-setwd("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/patel")
-load("/Users/yiwang/Dropbox/yiwang/project_Kasper/2_16/sim_data/patel_sim_counts4.RData")
-cal_plot(patel_sim_counts,0.2)
-
-dir.create("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/espresso")
-setwd("/Users/yiwang/Dropbox/yiwang/project_Kasper/3_29/output/espresso")
-load("/Users/yiwang/Dropbox/yiwang/project_Kasper/2_16/sim_data/espresso_sim_counts4.RData")
-cal_plot(espresso_sim_counts,0.2)
-
-
 
 
 
