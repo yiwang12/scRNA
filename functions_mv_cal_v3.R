@@ -1,10 +1,11 @@
+### log cpm normalize
 norm_counts_3<-function(count_inp){
   library_size = colSums(count_inp)
   y <- t(log( t( (count_inp )/(library_size + 1) * 1e+06  ) + 0.5 ))
   return(y )
 }
 
-
+### get true and estimated dropout numbers using known dropout rate
 get_est_dropout_num<-function(sim_counts){
   out=list()
   ngene = length(sim_counts$dropoutrates3)
@@ -31,6 +32,7 @@ get_est_dropout_num<-function(sim_counts){
 
 
 
+### mean-variance reconstruct using true dropout zeros and all zero numbers
 mv_knowndrop_norm4<-function(sim_counts,sim_counts_n_real,sim_counts_n_drop){
   Dropout  = sim_counts$Dropout
   droprate_in =  sim_counts$dropoutrates3
@@ -63,7 +65,7 @@ mv_knowndrop_norm4<-function(sim_counts,sim_counts_n_real,sim_counts_n_drop){
 }
 
 
-
+### mean-variance reconstruct with true and estimated dropout numbers using unknown dropout rate
 mv_unknowndrop_est_3 <-function(sim_counts,sim_counts_n_real,sim_counts_n_drop,dropnum_est){ # remove (1-droprate) zeros from non-drop zeros
   droprate_in = sim_counts$dropoutrates3
   droprate_in[is.na(droprate_in)]=0
@@ -96,6 +98,7 @@ mv_unknowndrop_est_3 <-function(sim_counts,sim_counts_n_real,sim_counts_n_drop,d
   return(out)
 }
 
+### mean-variance reconstruct by removing estimated dropout numbers or all zeros
 mv_unknowndrop_est_2 <-function(sim_counts,sim_counts_n_real,sim_counts_n_drop,dropnum_est){ #keep all non-drop zeros
   droprate_in = sim_counts$dropoutrates3 
   droprate_in[is.na(droprate_in)]=0
