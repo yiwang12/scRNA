@@ -3,7 +3,7 @@
 ### Parameters of Klein scRNA data
 params_Klein.RData
 
-### Code for scRNA simulation:
+### scRNA simulation:
 sim_scRNA.r
 
 ### Functions used in scRNA simulation:
