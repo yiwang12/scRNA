@@ -1,3 +1,6 @@
+### From zingR package
+### Citation
+### Clement, L. Observation weights unlock bulk RNA-seq tools for zero inflation and single-cell applications. 1–17 (2018). doi:10.1186/s13059-018-1406-4
 library(edgeR)
 library(mgcv)
 
