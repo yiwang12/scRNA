@@ -16,4 +16,4 @@ mean_variance_reconstruction.R;
 mean_variance_plot.R
 
 #### Evaluation using area under PR curve 
-area_PR _curve.r
+PR_curve_area.r
