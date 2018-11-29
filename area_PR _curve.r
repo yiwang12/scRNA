@@ -8,7 +8,7 @@ libSizes_time_test = c(0.1,0.2,0.5,  1,2,5,  10,20)
 samples_test = c(70,100,500,1000)#1000000
 
 range=c(1:4)
-#samples_test = c(70,100,500,1000, 5000,10000)
+samples_test = c(70,100,500,1000, 5000,10000)
 
 # calculate area with 10 iterations
 root = "/Users/yiwang/Dropbox/project_Kasper/8_17/out/"
