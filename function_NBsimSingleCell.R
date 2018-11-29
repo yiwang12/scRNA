@@ -1,5 +1,7 @@
 
-
+## Use zingeR package
+## Citation
+## Clement, L. Observation weights unlock bulk RNA-seq tools for zero inflation and single-cell applications. 1–17 (2018). doi:10.1186/s13059-018-1406-4
 
 NBsimSingleCell <- function(dataset, group, nTags = 10000, nlibs = length(group), lib.size = NULL, drop.low.lambda = TRUE, drop.extreme.dispersion = 0.1, pUp=.5, foldDiff=3, verbose=TRUE, ind=NULL, params=NULL, cpm="AveLogCPM", max.dispersion=400, min.dispersion=0.1, normalizeLambda=FALSE)
 {
